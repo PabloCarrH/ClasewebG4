@@ -7,3 +7,8 @@ Experiencia del Usuario (UX)
 Un buen diseño mejora la experiencia del usuario al facilitar la navegación y la interacción. Un diseño intuitivo y bien estructurado permite a los usuarios encontrar fácilmente la información que están buscando.
 Plan de trabajo
 Desarrollo de aplicación web
+
+Para el lunes
+Definir propuesta de desarrollo web
+Analisis y requerimiento de la propuesta
+Diseño del sistema
