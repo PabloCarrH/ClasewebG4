@@ -1,7 +1,8 @@
 E-commerce gaming, servirá para ofrecer artículos en línea, enfocados en la temática gamer (componentes de hardware)
 - Se va a separar por secciones
 - Va a tener un diseño llamativo, preferiblemente una gama de colores oscuros con fuente de texto blanca
-- Distribucion de la AI de manera que 
+- Distribucion de la AI de manera que incite al usuario a navegar y descubrir mas productos
 - Se cuenta con un carrito de compras para agregar los artículos seleccionados mientras se continua navegando
 - Se implementará variedad de opciones de pago
-- Se conectará la base de datos conectada directamente con los usuarios al iniciar sesion y registrar sus compras, guardando datos de usuario
+- Se conectará la base de datos directamente con los usuarios al iniciar sesion y registrar sus compras, guardando datos de los mismos
+
