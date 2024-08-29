@@ -1,13 +1,10 @@
-E-commerce gaming, servirá para ofrecer artículos en línea, enfocados en la temática gamer (componentes de hardware)
-- Se va a separar por secciones
-- Va a tener un diseño llamativo, preferiblemente una gama de colores oscuros con fuente de texto blanca
-- Distribucion de la AI de manera que incite al usuario a navegar y descubrir mas productos
-- Se cuenta con un carrito de compras para agregar los artículos seleccionados mientras se continua navegando
-- Se implementará variedad de opciones de pago
-- Se conectará la base de datos directamente con los usuarios al iniciar sesion y registrar sus compras, guardando datos de los mismos
 
-
-
-
-
-Se plantea una idea de implementacion respecto a una plataforma de E -Commerce basada en componentes electronicos para computadoras de alto rendimiento, focalizando la venta de componentes guiados al "Gaming", se piensa que esta plataforma tenga una interfaz intuitiva y sencilla capaz de brindar la informacion necesaria al cliente para evitar conflictos de intereces con esta modalidad de negocio, dicho esto, se busca un desarrollo estructurado y bien documentado para poder realizar una escalabilidad del proyecto 
+Se plantea una idea de implementacion respecto a una plataforma de E -Commerce basada en componentes electronicos para computadoras de alto rendimiento, focalizando la venta de componentes guiados al "Gaming"
+El proyecto se sustenta en la poca variedad de opciones en cuanto al mercado actual que ofrece este servicio de ventas
+Se piensa que esta plataforma tenga una interfaz intuitiva y sencilla capaz de brindar la informacion necesaria al cliente para evitar conflictos de intereces con esta modalidad de negocio
+Se va a separar por secciones que permitan la navegación y el orden de la información de manera que, el usario encuentre los productos ideales
+Se busca un desarrollo estructurado y bien documentado para poder realizar una escalabilidad del proyecto 
+El diseño se sustentará en estilos, colores y fuentes enfocados en el comercio del apartado gamer
+Se cuenta con un carrito de compras para agregar los artículos seleccionados mientras se continua navegando
+Se implementará variedad de opciones de pago
+Se conectará la base de datos directamente con los usuarios al iniciar sesion y registrar sus compras, guardando datos de los mismos
