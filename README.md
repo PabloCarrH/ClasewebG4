@@ -12,3 +12,4 @@ Para el lunes
 Definir propuesta de desarrollo web
 Analisis y requerimiento de la propuesta
 Diseño del sistema
+.
