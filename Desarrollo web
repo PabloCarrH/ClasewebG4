@@ -4,3 +4,4 @@ E-commerce gaming, servirá para ofrecer artículos en línea, enfocados en la t
 - Distribucion de la AI de manera que 
 - Se cuenta con un carrito de compras para agregar los artículos seleccionados mientras se continua navegando
 - Se implementará variedad de opciones de pago
+- Se conectará la base de datos conectada directamente con los usuarios al iniciar sesion y registrar sus compras, guardando datos de usuario
