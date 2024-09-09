@@ -1,9 +1,0 @@
-Se plantea una idea de implementacion respecto a una plataforma de E -Commerce basada en componentes electronicos para computadoras de alto rendimiento, focalizando la venta de componentes guiados al "Gaming"
-El proyecto se sustenta en la poca variedad de opciones en cuanto al mercado actual que ofrece este servicio de ventas
-Se piensa que esta plataforma tenga una interfaz intuitiva y sencilla capaz de brindar la informacion necesaria al cliente para evitar conflictos de intereces con esta modalidad de negocio
-Se va a separar por secciones que permitan la navegación y el orden de la información de manera que, el usario encuentre los productos ideales
-Se busca un desarrollo estructurado y bien documentado para poder realizar una escalabilidad del proyecto 
-El diseño se sustentará en estilos, colores y fuentes enfocados en el comercio del apartado gamer
-Se cuenta con un carrito de compras para agregar los artículos seleccionados mientras se continua navegando
-Se implementará variedad de opciones de pago
-Se conectará la base de datos directamente con los usuarios al iniciar sesion y registrar sus compras, guardando datos de los mismos
