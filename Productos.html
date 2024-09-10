@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="Productos.html">Productos</a></li>
+        </ol>
+    </nav>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Productos.html">Consultar Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Nombre</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Productos</h1>
+                <p>Explora nuestra selección de productos</p>
+            </div>
+        </div>
+    </header>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Buscar productos...">
+        <button id="search-button">Buscar</button>
+    </div>
+
+    <section class="product container">
+        <div class="product-content">
+            <div class="ofert-1">
+                <img src="images/1.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Silla con bebedor</p>
+                    <p class="precio">$100.000</p>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="images/2.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Silla de mesa</p>
+                    <p class="precio">$150.000</p>
+                </div>
+            </div>
+            <div class="ofert-1">
+                <img src="images/pr3.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Silla de sala Premium</p>
+                    <p class="precio">$250.000</p>
+                </div>
+            </div>
+            <div class="ofert-1">
+                <img src="images/pr4.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Puf</p>
+                    <p class="precio">$150.000</p>
+                </div>
+            </div>
+            <div class="ofert-1">
+                <img src="images/3.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Silla Basica</p>
+                    <p class="precio">$150.000</p>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="images/4.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Semi Sofacama</p>
+                    <p class="precio">$400.000</p>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="images/5.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Silla de oficina basica</p>
+                    <p class="precio">$300.000</p>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <img src="images/6.png" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>Silla de oficina premium</p>
+                    <p class="precio">$550.000</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        // Obtener todos los productos
+        const productos = document.querySelectorAll('.ofert-1');
+    
+        // Almacenar los estilos originales de los productos
+        const estilosOriginales = [];
+        productos.forEach(function(producto) {
+            estilosOriginales.push(producto.style.display);
+        });
+    
+        // Función para filtrar los productos según el término de búsqueda
+        function filtrarProductos(searchTerm) {
+            productos.forEach(function(producto, index) {
+                const productName = producto.querySelector('h3').textContent.toLowerCase();
+                const productDescription = producto.querySelector('p').textContent.toLowerCase(); // Obtener el texto del párrafo
+                if (productName.includes(searchTerm) || productDescription.includes(searchTerm)) { // Verificar si coincide con el nombre o la descripción
+                    producto.style.display = estilosOriginales[index]; // Restaurar el estilo original
+                } else {
+                    producto.style.display = 'none';
+                }
+            });
+        }
+    
+        // Manejar clic en el botón de búsqueda
+        document.getElementById('search-button').addEventListener('click', function() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            filtrarProductos(searchTerm);
+        });
+    
+        // Manejar evento keyup en el campo de búsqueda
+        document.getElementById('search-input').addEventListener('keyup', function() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            filtrarProductos(searchTerm);
+        });
+    </script>    
+</body>
+</html>
