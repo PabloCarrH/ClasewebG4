@@ -1,0 +1,15 @@
+{
+    "mensajes": [
+      {
+        "nombre": "Juan",
+        "correo": "juan@example.com",
+        "mensaje": "Este es un mensaje de prueba."
+      },
+      {
+        "nombre": "María",
+        "correo": "maria@example.com",
+        "mensaje": "Otro mensaje de prueba."
+      }
+    ]
+  }
+  
