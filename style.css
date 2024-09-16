@@ -617,3 +617,29 @@ button:hover {
     font-weight: bold;
     margin-right: 5px;
 }
+contador {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd; /* Borde ligero para definir la sección */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo claro para destacar la sección */
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para el contenedor */
+}
+
+.contador h2 {
+    margin-top: 0;
+    color: #333; /* Color del texto del título */
+    font-size: 24px; /* Tamaño de fuente del título */
+}
+
+.contador p {
+    font-size: 1.2em; /* Tamaño de fuente más grande para el contador */
+    color: #555; /* Color del texto del contador */
+    margin: 0; /* Eliminar margen para un ajuste más preciso */
+}
+
+#contador-visitas {
+    font-weight: bold; /* Negrita para destacar el número de visitas */
+    color: #007bff; /* Color del número de visitas */
+}
