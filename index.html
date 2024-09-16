@@ -259,6 +259,26 @@
         </div>
 
     </section>
+<script>
+        // Función para actualizar el contador de visitas
+        function actualizarContador() {
+            // Obtener el contador de visitas del localStorage
+            let visitas = localStorage.getItem('contador-visitas');
+            // Si no hay contador en localStorage, inicializa en 0
+            if (visitas === null) {
+                visitas = 0;
+            }
+            // Incrementar el contador
+            visitas++;
+            // Guardar el nuevo valor en localStorage
+            localStorage.setItem('contador-visitas', visitas);
+            // Mostrar el contador en el elemento HTML
+            document.getElementById('contador-visitas').innerText = visitas;
+        }
+
+        // Llamar a la función para actualizar el contador cuando se carga la página
+        document.addEventListener('DOMContentLoaded', actualizarContador);
+    </script>
 
 <script src="script.js"> </script>
     </body>
