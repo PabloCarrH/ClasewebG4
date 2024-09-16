@@ -259,7 +259,13 @@
         </div>
 
     </section>
-<script>
+ <section class="contador">
+        <h2>Visitas</h2>
+        <p>Has visitado esta página <span id="contador-visitas">0</span> veces.</p>
+    </section>
+
+    <!-- Scripts -->
+    <script>
         // Función para actualizar el contador de visitas
         function actualizarContador() {
             // Obtener el contador de visitas del localStorage
@@ -280,6 +286,5 @@
         document.addEventListener('DOMContentLoaded', actualizarContador);
     </script>
 
-<script src="script.js"> </script>
     </body>
 </html>
