@@ -617,31 +617,3 @@ button:hover {
     font-weight: bold;
     margin-right: 5px;
 }
-.contador {
-    position: fixed; /* Fija el contador en la pantalla */
-    top: 20px; /* Espacio desde el borde superior */
-    right: 20px; /* Espacio desde el borde derecho */
-    background-color: #ffffff; /* Fondo blanco para contraste */
-    padding: 10px 20px; /* Espacio interno alrededor del contenido */
-    border: 1px solid #ddd; /* Borde ligero */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    z-index: 1000; /* Asegura que el contador esté sobre otros elementos */
-}
-
-.contador h2 {
-    margin: 0; /* Elimina margen para ajuste preciso */
-    font-size: 18px; /* Tamaño de fuente del título */
-    color: #333; /* Color del texto del título */
-}
-
-.contador p {
-    font-size: 1.2em; /* Tamaño de fuente más grande para el contador */
-    color: #555; /* Color del texto del contador */
-    margin: 0; /* Elimina margen para ajuste preciso */
-}
-
-#contador-visitas {
-    font-weight: bold; /* Negrita para el número de visitas */
-    color: #007bff; /* Color del número de visitas */
-}
