@@ -41,28 +41,37 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 20px; /* Margen horizontal */
 }
 
-.logo{
+.logo {
     font-size: 25px;
     color: #ff3c2a;
     text-transform: uppercase;
     font-weight: 800;
 }
 
-.menu .navbar ul li{
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
     position: relative;
     float: left;
 }
 
-.menu .navbar ul li a {
+.navbar ul li a {
     font-size: 18px;
     padding: 20px;
     color: #111111;
     display: block;
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
 }
-.menu .navbar ul li a:hover {
-    color:#ff3c2a;
+
+.navbar ul li a:hover {
+    color: #ff3c2a;
 }
 
 #menu {
