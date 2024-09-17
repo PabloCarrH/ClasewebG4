@@ -617,3 +617,22 @@ button:hover {
     font-weight: bold;
     margin-right: 5px;
 }
+
+
+/* PAGINA INFORMACION PRODUCTOS */
+
+.btn-2 {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #ff3c2a;  /* Color del borde */
+    color: #ff3c2a;              /* Color del texto */
+    font-size: 18px;             /* Tamaño del texto */
+    text-transform: capitalize;  /* Convertir texto en capitalizado */
+    border-radius: 15px;         /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición para cambios de color */
+}
+
+.btn-2:hover {
+    background-color: #ff3c2a;   /* Color de fondo al hacer hover */
+    color: #ffffff;              /* Color del texto al hacer hover */
+}
