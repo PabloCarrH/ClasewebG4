@@ -706,3 +706,42 @@ footer {
     width: 100%;
 }
 
+
+
+
+
+/* Sección de Redes Sociales */
+.social-media {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+    margin-top: 50px;
+}
+
+.social-media h2 {
+    font-size: 2rem;
+    color: #ff3c2a;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-logo {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-logo:hover {
+    transform: scale(1.2);
+}
+
+
